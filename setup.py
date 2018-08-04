@@ -1,7 +1,7 @@
 import codecs
 import os.path
 
-from setuptools import setup
+from setuptools import find_packages, setup
 
 
 def fpath(name):
@@ -14,14 +14,14 @@ def read(fname):
 
 setup(
     name='prefab',
-    version='0.1.0',
+    version='0.1.3',
     description='Prefabricate a python project!',
     long_description=read(fpath('README.rst')),
     url='http://github.com/zackhsi/prefab',
     author='Zack Hsi',
     author_email='zackhsi@gmail.com',
     license='MIT',
-    packages=['prefab'],
+    packages=find_packages(),
     entry_points={
         'console_scripts': [
             'prefab = prefab.cli:main',
