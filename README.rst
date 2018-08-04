@@ -1,6 +1,9 @@
 Prefab
 ======
 
+.. image:: https://travis-ci.org/zackhsi/prefab.svg?branch=master
+    :target: https://travis-ci.org/zackhsi/prefab
+
 Prefab quickly creates a minimal Python project so you can get coding in
 seconds!
 
