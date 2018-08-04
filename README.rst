@@ -1,6 +1,9 @@
 Prefab
 ======
 
+.. image:: https://img.shields.io/pypi/v/prefab.svg
+    :target: https://pypi.python.org/pypi/prefab
+
 .. image:: https://travis-ci.org/zackhsi/prefab.svg?branch=master
     :target: https://travis-ci.org/zackhsi/prefab
 
