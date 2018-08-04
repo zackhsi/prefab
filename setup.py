@@ -14,7 +14,7 @@ def read(fname):
 
 setup(
     name='prefab',
-    version='1.0.0',
+    version='1.0.1',
     description='Prefabricate a python project!',
     long_description=read(fpath('README.rst')),
     url='http://github.com/zackhsi/prefab',
