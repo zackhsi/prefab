@@ -1,10 +1,22 @@
+import codecs
+import os.path
+
 from setuptools import setup
+
+
+def fpath(name):
+    return os.path.join(os.path.dirname(__file__), name)
+
+
+def read(fname):
+    return codecs.open(fpath(fname), encoding='utf-8').read()
 
 
 setup(
     name='prefab',
     version='0.1.0',
     description='Prefabricate a python project!',
+    long_description=read(fpath('README.rst')),
     url='http://github.com/zackhsi/prefab',
     author='Zack Hsi',
     author_email='zackhsi@gmail.com',
