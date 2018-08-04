@@ -108,7 +108,7 @@ def commit(project_name: str) -> None:
 
 def print_help(project_name: str) -> None:
     print()
-    print(f'✨✨ {project_name} successfully prefabbed! ✨✨')
+    print(f'✨✨ {project_name} successfully prefabricated! ✨✨')
     print()
     print('To get started, run:')
     print()

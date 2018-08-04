@@ -8,7 +8,7 @@ seconds!
 
     $ prefab todoapp
 
-    ✨✨ todoapp successfully prefabbed! ✨✨
+    ✨✨ todoapp successfully prefabricated! ✨✨
 
     To get started, run:
 
