@@ -20,8 +20,6 @@ seconds!
 
         cd todoapp && pipenv run pytest tests
 
-Prefab requires `pipenv`_.
-
 What's in the box?
 ------------------
 
