@@ -22,6 +22,9 @@ setup(
     author_email='zackhsi@gmail.com',
     license='MIT',
     packages=find_packages(),
+    install_requires=[
+        'jinja2',
+    ],
     entry_points={
         'console_scripts': [
             'prefab = prefab.cli:main',
