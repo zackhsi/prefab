@@ -9,8 +9,6 @@ def project_name() -> str:
 
 
 def test_e2e(tmpdir, project_name: str):
-    print(f'Running `prefab {project_name}` in {tmpdir}...')
-    print(type(tmpdir))
     subprocess.check_call(
         [
             'prefab',
